@@ -8,11 +8,11 @@
 # 2. biar ketauan error nya dimana (maintaiable)
 # 3. supaya kalo kita baca ulang itu ga bingung (readble & maintainable)
 
-to_do_list = []
+tasks = []
 
 def add_task():
   task = input("Task : ")
-  to_do_list.append(task)
+  tasks.append(task)
   print(f"Tugas {task} berhasil ditambah")
   
 while True:
